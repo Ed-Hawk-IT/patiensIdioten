@@ -33,3 +33,5 @@ def print_card(suit, value):
 	print('\u2502' + color + value + symbol + default + '\u2502')
 	print('\u2502' + color + symbol + value + default + '\u2502')
 	print("\u2570\u2500\u2500\u256F")
+
+print_card("c", 3)
